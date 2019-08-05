@@ -3,10 +3,8 @@ $(document).ready(function() {
         event.preventDefault();
         var sizeOfPizza = $('#size').val();
         console.log(sizeOfPizza);
-        // document.getElementById('sizeP').innerHTML = sizeOfPizza;
         var pizzaCrust = $('#crust').val();
         console.log(pizzaCrust);
-        // document.getElementById('crustP').innerHTML = pizzaCrust;
         var toppings = [];
         $("input[type = checkbox]:checked").each(function() {
             toppings.push($(this).val())
@@ -23,7 +21,7 @@ $(document).ready(function() {
         $('#toppz').append("<td>" + top + "</td>")
     });
     $("#btnAddMore").click(function(event) {
-        event.preventDefault();
-        var c = location.reload(forceGet);
+        alert("delivery fee is 2000");
+        prompt("enter your location: ");
     });
 });

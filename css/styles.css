@@ -15,7 +15,7 @@ h1 {
     text-align: center;
 }
 
-.form {
+form {
     border: 1px solid black;
     border-radius: 7px;
     justify-content: space-between;
@@ -23,5 +23,17 @@ h1 {
 }
 
 .custom-control {
+    color: white;
+}
+
+table {
+    color: whitesmoke;
+}
+
+#summ {
+    color: white;
+}
+
+p {
     color: white;
 }

@@ -1,4 +1,4 @@
-# New-Pizzeria
+# New Pizzeria
 ## Description
 It is a webpage of a pizzeria, mainly it helps ordering pizzas. it also displays the summary of your order in francs to help you know what you are going to pay.
 

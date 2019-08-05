@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#btnSubmit").click(function(event) {
-        event.preventDefault();
+
         var sizeOfPizza = $('#size').val();
         console.log(sizeOfPizza);
         var pizzaCrust = $('#crust').val();
@@ -18,10 +18,12 @@ $(document).ready(function() {
         $('#size').text(total);
         $('#sizeP').append("<td>" + sizeOfPizza + "</td>");
         $('#crustP').append("<td>" + pizzaCrust + "</td>");
-        $('#toppz').append("<td>" + top + "</td>")
+        $('#toppz').append("<td>" + top + "</td>");
+        event.preventDefault();
     });
     $("#btnAddMore").click(function(event) {
         alert("delivery fee is 2000");
         prompt("enter your location: ");
+        alert("we'll reach to you in a few");
     });
 });

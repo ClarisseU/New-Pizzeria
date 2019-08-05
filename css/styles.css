@@ -1,0 +1,20 @@
+body {
+    background-image: url("https://cdn.website.dish.co/media/af/75/725514/Pizzeria-Apollo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: rgb(49, 47, 47);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.form {
+    border: 1px solid black;
+}

@@ -15,7 +15,7 @@ $(document).ready(function() {
         }
         var total = parseInt(sizeOfPizza) + parseInt(pizzaCrust) + parseInt(top);
         alert("the total is: " + total);
-        $('#size').text(total);
+
         $('#sizeP').append("<td>" + sizeOfPizza + "</td>");
         $('#crustP').append("<td>" + pizzaCrust + "</td>");
         $('#toppz').append("<td>" + top + "</td>");

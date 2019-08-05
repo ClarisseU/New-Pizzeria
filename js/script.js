@@ -26,7 +26,7 @@ $(document).ready(function() {
         prompt("enter your location: ");
         alert("we'll reach to you in a few");
     });
-    $("#btnNuOrder").click(function(event) {
-        event.preventDefault();
-    });
+    // $("#btnNuOrder").click(function(event) {
+    //     event.preventDefault();
+    // });
 });

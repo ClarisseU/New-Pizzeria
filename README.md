@@ -7,7 +7,7 @@ You must have access to the internet connection.
 
 ## Behaviour Driven Development
 ### Behaviour
-The user chooses the size of the pizza he wants, he also chooses the crusts he wants to add on his pizza and finally choose the toppings he wants to add then he submits and the project calculate the total amount to be payed and displays the summary. And if the user wants a delivery, he just click on the delivery button and follow the instructions.
+The user chooses the size of the pizza he wants, he also chooses the crusts he wants to add on his pizza and finally choose the toppings he wants to add then he submits and the project calculate the total amount to be payed and displays the summary. And if the user wants a delivery, he just click on the delivery button and follow the instructions. When the user clicks on the new order button, the project refreshes the page and you can place a new order
 
 ### Input
 The user enters the size of the pizza, crusts and toppings 

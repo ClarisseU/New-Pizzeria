@@ -19,6 +19,7 @@
         <div class="jumbotron">
             <h1><strong>NEW PIZZERIA</strong></h1>
         </div>
+
         <div class="form">
             <select class="form-control">
                 <option>Choose the size of pizza</option>
@@ -32,15 +33,32 @@
                 <option>Stuffed</option>
                 <option>Gluten-free</option>
             </select><br><br>
-            <select class="form-control">
-                <option>Choose the toppings</option>
-                <option>Onion</option>
-                <option>Cheers</option>
-                <option>pepper</option>
-            </select><br><br>
-            <button type="submit">Submit</button>
-            <button type="button">Summary</button>
+            <div class="custom-control custom-checkbox">
+                <label>Choose the toppings</label> <br>
+                <!-- Onion-->
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline1" value="300">
+                    <label class="custom-control-label" for="defaultInline1">Onion</label>
+                </div>
+                <br>
+                <!-- Cheers-->
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline2" value="700">
+                    <label class="custom-control-label" for="defaultInline2">Cheers</label>
+                </div>
+                <br>
+                <!-- Pepper-->
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="defaultInline3" value="500">
+                    <label class="custom-control-label" for="defaultInline3">Pepper</label>
+                </div><br>
+            </div> <br><br>
+            <!-- buttons -->
+            <button type="submit" class="btn btn-warning">Submit</button>
+            <button type="button" class="btn btn-warning">Summary</button>
+            <button type="button" class="btn btn-warning">Add more</button>
         </div>
+
     </div>
 </body>
 
